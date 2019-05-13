@@ -13,8 +13,8 @@ def todolist(request):
 
 def todofinish(request,id=''):
   todo=Todo.objects.get(id=id)
-  if todo.flag=='1':
-    todo.flag='0'
+  if todo.flag==1:
+    todo.flag=0
     todo.save()
     return HttpResponseRedirect('/simpletodo/')
   todolist=Todo.objects.filter(flag=1)
@@ -22,8 +22,8 @@ def todofinish(request,id=''):
 
 def todoback(request,id=''):
   todo=Todo.objects.get(id=id)
-  if todo.flag=='0':
-    todo.flag='1'
+  if todo.flag==0:
+    todo.flag=1
     todo.save()
     return HttpResponseRedirect('/simpletodo/')
   todolist = Todo.objects.filter(flag=1)
@@ -44,12 +44,13 @@ def addtodo(request):
   if request.method=='POST':
     atodo=request.POST['todo']
     priority=request.POST['priority']
+    if not priority:priority=0
     user = User.objects.get(id='1')
-    todo = Todo(user=user, todo=atodo, priority=priority, flag='1')
+    todo = Todo(user=user, todo=atodo, priority=priority, flag=1)
     todo.save()
-    todolist = Todo.objects.filter(flag='1')
+    todolist = Todo.objects.filter(flag=1)
     finishtodos = Todo.objects.filter(flag=0)
-    return render_to_response('simpletodo.html',{'todolist': todolist, 'finishtodos': finishtodos})   
+    return render_to_response('showtodo.html',{'todolist': todolist, 'finishtodos': finishtodos})   
   else:
     todolist = Todo.objects.filter(flag=1)
     finishtodos = Todo.objects.filter(flag=0)
@@ -64,7 +65,7 @@ def updatetodo(request,id=''):
     todo.todo=atodo
     todo.priority=priority
     todo.save()
-    todolist = Todo.objects.filter(flag='1')
+    todolist = Todo.objects.filter(flag=1)
     finishtodos = Todo.objects.filter(flag=0)
     return render_to_response('simpletodo.html',{'todolist': todolist, 'finishtodos': finishtodos})
   else:
