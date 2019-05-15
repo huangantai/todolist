@@ -1,0 +1,162 @@
+[14/May/2019 08:52:20] "GET /simpletodo/ HTTP/1.1" 200 9125
+[14/May/2019 08:52:20] "GET /static/js/modernizr.js HTTP/1.1" 304 0
+[14/May/2019 08:52:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[14/May/2019 08:52:20] "GET /static/js/jquery.js HTTP/1.1" 304 0
+[14/May/2019 08:52:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[14/May/2019 08:52:20] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 304 0
+[14/May/2019 08:52:20] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 304 0
+[14/May/2019 08:52:40] "POST /simpletodo/addtodo/ HTTP/1.1" 200 3824
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 08:52:15
+Django version 2.1, using settings 'todolist.settings'
+Starting development server at http://0.0.0.0:9999/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 08:53:23
+Django version 2.1, using settings 'todolist.settings'
+Starting development server at http://0.0.0.0:9999/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 08:53:48
+Django version 2.1, using settings 'todolist.settings'
+Starting development server at http://0.0.0.0:9999/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 08:54:05
+Django version 2.1, using settings 'todolist.settings'
+Starting development server at http://0.0.0.0:9999/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 08:55:07
+Django version 2.1, using settings 'todolist.settings'
+Starting development server at http://0.0.0.0:9999/
+Quit the server with CONTROL-C.
+[14/May/2019 08:55:31] "GET /simpletodo/ HTTP/1.1" 200 10058
+[14/May/2019 08:55:54] "POST /simpletodo/addtodo/ HTTP/1.1" 200 4404
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 08:55:18
+Django version 2.1, using settings 'todolist.settings'
+Starting development server at http://0.0.0.0:9999/
+Quit the server with CONTROL-C.
+[14/May/2019 08:58:15] "GET /simpletodo/ HTTP/1.1" 200 11003
+[14/May/2019 08:58:15] "GET /static/js/modernizr.js HTTP/1.1" 200 43431
+[14/May/2019 08:58:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 98165
+[14/May/2019 08:58:15] "GET /static/js/jquery.js HTTP/1.1" 200 94840
+[14/May/2019 08:58:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 25564
+[14/May/2019 08:58:15] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 8777
+[14/May/2019 08:58:15] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 12799
+Not Found: /favicon.ico
+[14/May/2019 08:58:15] "GET /favicon.ico HTTP/1.1" 404 2191
+[14/May/2019 08:58:22] "GET /simpletodo/ HTTP/1.1" 200 11003
+[14/May/2019 09:00:42] "POST /simpletodo/addtodo/ HTTP/1.1" 200 5326
+[14/May/2019 09:02:15] "POST /simpletodo/addtodo/ HTTP/1.1" 200 5939
+/usr/local/lib/python3.7/site-packages/django/template/defaulttags.py:63: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  "A {% csrf_token %} was used in a template, but the context "
+[14/May/2019 09:02:43] "GET /simpletodo/updatetodo/39 HTTP/1.1" 200 5165
+[14/May/2019 09:02:44] "POST /simpletodo/updatetodo/39 HTTP/1.1" 200 12863
+[14/May/2019 09:02:47] "POST /simpletodo/updatetodo/39 HTTP/1.1" 200 12863
+[14/May/2019 09:02:50] "POST /simpletodo/updatetodo/39 HTTP/1.1" 200 12863
+[14/May/2019 09:02:50] "GET /static/js/modernizr.js HTTP/1.1" 200 43431
+[14/May/2019 09:02:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 25564
+[14/May/2019 09:02:50] "GET /static/js/jquery.js HTTP/1.1" 200 94840
+[14/May/2019 09:02:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 98165
+[14/May/2019 09:02:50] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 200 8777
+[14/May/2019 09:02:50] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 200 12799
+Not Found: /favicon.ico
+[14/May/2019 09:02:50] "GET /favicon.ico HTTP/1.1" 404 2191
+[14/May/2019 09:02:53] "GET /simpletodo/updatetodo/39 HTTP/1.1" 200 5165
+[14/May/2019 09:02:55] "POST /simpletodo/updatetodo/39 HTTP/1.1" 200 12863
+[14/May/2019 11:28:05] "GET /admin/ HTTP/1.1" 200 14308
+[14/May/2019 11:28:05] "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[14/May/2019 11:28:05] "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+[14/May/2019 11:28:05] "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+[14/May/2019 11:28:07] "GET /admin/ HTTP/1.1" 200 14308
+[14/May/2019 11:28:07] "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /admin/simpletodo/todo/ HTTP/1.1" 200 53620
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/css/xadmin.widget.editable.css HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1771
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.plugin.editable.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+[14/May/2019 11:28:10] "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1771
+[14/May/2019 11:28:24] "GET /admin/simpletodo/todo/39/patch/?fields=todo HTTP/1.1" 200 494
+[14/May/2019 11:28:30] "POST /admin/simpletodo/todo/39/patch/ HTTP/1.1" 200 103
+[14/May/2019 11:28:37] "GET /admin/simpletodo/todo/ HTTP/1.1" 200 53626
+[14/May/2019 11:28:37] "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1771
+[14/May/2019 11:28:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+[14/May/2019 11:28:37] "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1771
+[14/May/2019 11:29:07] "GET / HTTP/1.1" 200 12869
+[14/May/2019 15:48:06] "GET / HTTP/1.1" 200 12869
+[15/May/2019 13:58:57] "GET / HTTP/1.1" 200 12869
+[15/May/2019 13:58:57] "GET /static/js/modernizr.js HTTP/1.1" 304 0
+[15/May/2019 13:58:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+[15/May/2019 13:58:57] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+[15/May/2019 13:58:57] "GET /static/js/jquery.js HTTP/1.1" 304 0
+[15/May/2019 13:58:57] "GET /static/img/glyphicons-halflings.png HTTP/1.1" 304 0
+[15/May/2019 13:58:57] "GET /static/img/glyphicons-halflings-white.png HTTP/1.1" 304 0
+[15/May/2019 16:29:30] "GET / HTTP/1.1" 200 12869
+[15/May/2019 16:56:03] "GET / HTTP/1.1" 200 12869
+[15/May/2019 16:56:06] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:09] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:10] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:16] "GET /simpletodo/ HTTP/1.1" 200 12869
+[15/May/2019 16:56:19] "GET /simpletodo/ HTTP/1.1" 200 12869
+[15/May/2019 16:56:22] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:24] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:24] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:25] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:26] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:31] "GET /simpletodo/todofinish/37 HTTP/1.1" 200 12045
+[15/May/2019 16:56:37] "GET / HTTP/1.1" 200 12869
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 14, 2019 - 08:56:20
+Django version 2.1, using settings 'todolist.settings'
+Starting development server at http://0.0.0.0:9999/
+Quit the server with CONTROL-C.

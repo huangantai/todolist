@@ -20,6 +20,7 @@
         <tr class='info'>
         {% endif %}
             <td class="todo">{{ todo.todo }}</td>
+            <td class="todo">{{ todo.pubtime|date:'Y-m-d'}}</td>
             <td class="te">
                 <div class="span2">
                     <a href="{% url 'finish' todo.id %}" title="finish"><i class=" icon-ok"></i></a>
@@ -32,6 +33,7 @@
         {% for ftodo in finishtodos %}
         <tr class='success'>
             <td class="ftodo muted">{{ ftodo.todo }}</td>
+            <td class="todo">{{ ftodo.pubtime|date:'Y-m-d'}}</td>
             <td class="te">
                 <div class="span2">
                     <a href="{% url 'backout' ftodo.id %}" title="finish"><i class=" icon-repeat"></i></a>

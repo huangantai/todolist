@@ -14,4 +14,4 @@ class Todo(models.Model):
         return u'%d %s %s' % (self.id, self.todo, self.flag)
 
     class Meta:
-        ordering = ['priority', 'pubtime']
+        ordering = ['priority', '-pubtime']
